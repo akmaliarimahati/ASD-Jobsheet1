@@ -61,12 +61,12 @@ public class PraktikumArray {
         System.out.println("Hasil Konversi Nilai");
         System.out.println("===============================================");
 
-        System.out.printf("%-30s %-15s %15s %15s\n", 
-            "MK", "Nilai Angka", "Nilai Huruf", "Bobot");
+        System.out.printf("%-30s %10s %-15s %15s %15s\n", 
+            "MK", "SKS", "Nilai Angka", "Nilai Huruf", "Bobot");
         
         for (int i = 0; i < jumlahMatkul; i++) {
-            System.out.printf("%-30s %-15s %15s %15s\n", 
-                namaMatkul[i], nilaiAngka[i], nilaiHuruf[i], bobotNilai[i]);
+            System.out.printf("%-30s %10s %-15s %15s %15s\n", 
+                namaMatkul[i], sks[i], nilaiAngka[i], nilaiHuruf[i], bobotNilai[i]);
         }
 
         System.out.println("===============================================");
